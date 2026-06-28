@@ -311,7 +311,7 @@ INT_PTR CALLBACK DlgProc (
 			_r_layout_initializemanager (&layout_manager, hwnd);
 
 			// refresh list
-			_r_ctrl_sendcommand (hwnd, IDM_REFRESH, 0);
+			_r_wnd_sendcommand (hwnd, IDM_REFRESH, 0);
 
 			break;
 		}
